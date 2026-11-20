@@ -23,8 +23,8 @@ Important functions in this package:
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://orijitghosh.github.io/FlyDreamR}
-  \item Report bugs at \url{https://github.com/orijitghosh/FlyDreamR/issues}
+  \item \url{https://nhlbi.github.io/FlyDreamR}
+  \item Report bugs at \url{https://github.com/NHLBI/FlyDreamR/issues}
 }
 
 }

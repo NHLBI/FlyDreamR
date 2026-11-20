@@ -1,4 +1,4 @@
-url: https://orijitghosh.github.io/FlyDreamR/
+url: https://nhlbi.github.io/FlyDreamR/
 
 template:
   bootstrap: 5
@@ -19,7 +19,7 @@ navbar:
       href: articles/introduction.html
     github:
       icon: fab fa-github
-      href: https://github.com/orijitghosh/FlyDreamR
+      href: https://github.com/NHLBI/FlyDreamR
       aria-label: GitHub
 
 articles:

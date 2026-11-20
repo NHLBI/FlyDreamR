@@ -10,8 +10,8 @@ Description: Implements an iterative hidden Markov model for
     inferring sleep and wake states from activity-count data, plus tools
     for data preparation, visualization, and summary metrics.
 License: GPL (>= 3)
-URL: https://orijitghosh.github.io/FlyDreamR
-BugReports: https://github.com/orijitghosh/FlyDreamR/issues
+URL: https://nhlbi.github.io/FlyDreamR
+BugReports: https://github.com/NHLBI/FlyDreamR/issues
 Depends: 
     R (>= 4.0)
 Imports:

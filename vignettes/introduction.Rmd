@@ -37,7 +37,7 @@ From GitHub (recommended)
 ```{r}
 # Install from GitHub (devtools or remotes)
 install.packages(c('devtools','remotes'), repos='https://cloud.r-project.org')
-remotes::install_github('orijitghosh/FlyDreamR', upgrade = 'never')
+remotes::install_github('NHLBI/FlyDreamR', upgrade = 'never')
 ```
 
 Then load the package:

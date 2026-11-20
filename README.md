@@ -4,11 +4,11 @@
 
 > **Infer sleep/wake states from locomotor activity data using hidden Markov models (HMMs).**
 
-[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html) [![License: GPL-3](https://img.shields.io/badge/License-GPL--3-blue.svg)](LICENSE) [![Repo status](https://img.shields.io/badge/status-active-success)](#) [![Issues](https://img.shields.io/github/issues/orijitghosh/FlyDreamR.svg)](https://github.com/orijitghosh/FlyDreamR/issues)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html) [![License: GPL-3](https://img.shields.io/badge/License-GPL--3-blue.svg)](LICENSE) [![Repo status](https://img.shields.io/badge/status-active-success)](#) [![Issues](https://img.shields.io/github/issues/NHLBI/FlyDreamR.svg)](https://github.com/NHLBI/FlyDreamR/issues)
 
 **FlyDreamR** fits an iterative hidden Markov model to *Drosophila* Activity Monitor (DAM) activity counts. The default is four states; users can also fit three or five activity-ordered states. It covers loading raw monitor files, linking metadata, fitting serially or in parallel, and producing plots and summaries.
 
-For detailed guides and walkthroughs, visit <https://orijitghosh.github.io/FlyDreamR/>.
+For detailed guides and walkthroughs, visit <https://nhlbi.github.io/FlyDreamR/>.
 
 ------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ For detailed guides and walkthroughs, visit <https://orijitghosh.github.io/FlyDr
 
 ``` r
 install.packages('remotes', repos = 'https://cloud.r-project.org')
-remotes::install_github('orijitghosh/FlyDreamR', upgrade = 'never')
+remotes::install_github('NHLBI/FlyDreamR', upgrade = 'never')
 ```
 
 ------------------------------------------------------------------------
@@ -75,13 +75,13 @@ If you use FlyDreamR in your research, please cite:
 
 ## Contributing
 
-Bug reports and pull requests are welcome. Please use the [GitHub Issues page](https://github.com/orijitghosh/FlyDreamR/issues).
+Bug reports and pull requests are welcome. Please use the [GitHub Issues page](https://github.com/NHLBI/FlyDreamR/issues).
 
 ------------------------------------------------------------------------
 
 ## Contact
 
-**Author:** Arijit Ghosh. For bugs and feature requests, open an issue at <https://github.com/orijitghosh/FlyDreamR/issues>.
+**Author:** Arijit Ghosh. For bugs and feature requests, open an issue at <https://github.com/NHLBI/FlyDreamR/issues>.
 
 ------------------------------------------------------------------------
 
