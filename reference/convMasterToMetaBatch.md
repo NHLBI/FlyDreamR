@@ -3,7 +3,7 @@
 Processes multiple DAM master files in batch, converting each to the
 metadata format required by FlyDreamR. This is a convenient wrapper
 around
-[`convMasterToMeta`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMeta.md)
+[`convMasterToMeta`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMeta.md)
 that handles multiple files with the same start/end times.
 
 The function validates each master file against its corresponding
@@ -54,7 +54,7 @@ convMasterToMetaBatch(
 A single `data.frame` combining metadata from all successfully processed
 master files. Contains the same columns as individual metadata files
 (see
-[`convMasterToMeta`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMeta.md)
+[`convMasterToMeta`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMeta.md)
 for column details).
 
 Individual CSV files are also written to `output_dir`, one per master
@@ -70,7 +70,7 @@ processing continues with remaining files.
 For each master file, the function:
 
 1.  Calls
-    [`convMasterToMeta`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMeta.md)
+    [`convMasterToMeta`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMeta.md)
     with provided parameters
 
 2.  Validates start/end times against the monitor file
@@ -103,7 +103,7 @@ Use batch processing when you have:
 
 **Important**: All files must share the same start/end times. If your
 master files have different timings, process them separately using
-[`convMasterToMeta`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMeta.md).
+[`convMasterToMeta`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMeta.md).
 
 ### Performance
 
@@ -120,7 +120,7 @@ Typical: 1-2 seconds per file.
 ## Master File Format
 
 Each master file should follow the same format as described in
-[`convMasterToMeta`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMeta.md):
+[`convMasterToMeta`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMeta.md):
 
 - Tab-delimited text file
 
@@ -133,9 +133,9 @@ Each master file should follow the same format as described in
 
 ## See also
 
-[`convMasterToMeta`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMeta.md)
+[`convMasterToMeta`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMeta.md)
 for single file processing and format details
-[`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 for using the generated metadata
 [`Sys.glob`](https://rdrr.io/r/base/Sys.glob.html) for finding files
 with wildcards

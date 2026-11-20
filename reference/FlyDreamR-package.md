@@ -8,23 +8,23 @@ infer sleep and wake states.
 
 Important functions in this package:
 
-- [`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md):
+- [`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md):
   This is the function to prepare DAM data for running the HMMs.
 
-- [`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md):
+- [`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md):
   The main function of the package to run HMMs for sleep state
   inference.
 
-- [`HMMbehavrFast`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md):
+- [`HMMbehavrFast`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md):
   Parallelized version of `HMMbehavr`.
 
 ## See also
 
 Useful links:
 
-- <https://orijitghosh.github.io/FlyDreamR>
+- <https://nhlbi.github.io/FlyDreamR>
 
-- Report bugs at <https://github.com/orijitghosh/FlyDreamR/issues>
+- Report bugs at <https://github.com/NHLBI/FlyDreamR/issues>
 
 ## Author
 

@@ -8,9 +8,9 @@
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
 [![License:
-GPL-3](https://img.shields.io/badge/License-GPL--3-blue.svg)](https://orijitghosh.github.io/FlyDreamR/LICENSE)
+GPL-3](https://img.shields.io/badge/License-GPL--3-blue.svg)](https://nhlbi.github.io/FlyDreamR/LICENSE)
 [![Repo status](https://img.shields.io/badge/status-active-success)](#)
-[![Issues](https://img.shields.io/github/issues/orijitghosh/FlyDreamR.svg)](https://github.com/orijitghosh/FlyDreamR/issues)
+[![Issues](https://img.shields.io/github/issues/NHLBI/FlyDreamR.svg)](https://github.com/NHLBI/FlyDreamR/issues)
 
 **FlyDreamR** fits an iterative hidden Markov model to *Drosophila*
 Activity Monitor (DAM) activity counts. The default is four states;
@@ -19,14 +19,14 @@ loading raw monitor files, linking metadata, fitting serially or in
 parallel, and producing plots and summaries.
 
 For detailed guides and walkthroughs, visit
-<https://orijitghosh.github.io/FlyDreamR/>.
+<https://nhlbi.github.io/FlyDreamR/>.
 
 ------------------------------------------------------------------------
 
 ## What it does
 
 **Data preparation**
-([`HMMDataPrep()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)):
+([`HMMDataPrep()`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)):
 the first step in the pipeline. Reads raw DAM monitor files, links them
 to your metadata, and returns a `behavr` table with day, light/dark
 phase, and normalized activity calculated and ready for HMM fitting. Set
@@ -34,26 +34,26 @@ phase, and normalized activity calculated and ready for HMM fitting. Set
 later days.
 
 **Traditional sleep analysis**
-([`calcTradSleep()`](https://orijitghosh.github.io/FlyDreamR/reference/calcTradSleep.md)):
+([`calcTradSleep()`](https://nhlbi.github.io/FlyDreamR/reference/calcTradSleep.md)):
 define sleep as immobility of 5–60 minutes; returns bout counts, bout
 lengths, activity index, brief awakenings, and day/phase summaries.
 
 **HMM-based state inference**: fits a per-fly, per-day Gaussian HMM with
 Viterbi decoding. Use
-[`HMMbehavr()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+[`HMMbehavr()`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 for serial fitting or
-[`HMMbehavrFast()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md)
+[`HMMbehavrFast()`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md)
 for parallel fitting across CPU cores. Both accept `n_states = 3`, `4`,
 or `5` and return a `QualityReport` with failed fly-days and reasons.
 Biological state names in the documentation apply to the four-state
 default.
 
 **Visualization**: heatmap hypnograms
-([`HMMplot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMplot.md)),
+([`HMMplot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMplot.md)),
 faceted group profiles
-([`HMMFacetedPlot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md)),
+([`HMMFacetedPlot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md)),
 and single-fly daily profiles
-([`HMMSinglePlot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMSinglePlot.md)).
+([`HMMSinglePlot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMSinglePlot.md)).
 
 **Shiny GUI**: a point-and-click interface for users who prefer not to
 work in R directly.
@@ -65,7 +65,7 @@ work in R directly.
 ``` r
 
 install.packages('remotes', repos = 'https://cloud.r-project.org')
-remotes::install_github('orijitghosh/FlyDreamR', upgrade = 'never')
+remotes::install_github('NHLBI/FlyDreamR', upgrade = 'never')
 ```
 
 ------------------------------------------------------------------------
@@ -92,12 +92,12 @@ The first five columns are required; `replicate` and `sex` are optional.
 ## Common issues
 
 **HMM fitting is slow:** Use
-[`HMMbehavrFast()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md)
+[`HMMbehavrFast()`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md)
 and set `n_cores` to one less than your total CPU core count.
 
 **Fitting has been running for more than 15 minutes:** Check for flat
 activity traces. Use `removeDeadAnimals = TRUE` in
-[`HMMDataPrep()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep()`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 to exclude the suspected death day and later days, then review the
 `QualityReport` for any remaining fit failures.
 
@@ -124,18 +124,18 @@ If you use FlyDreamR in your research, please cite:
 ## Contributing
 
 Bug reports and pull requests are welcome. Please use the [GitHub Issues
-page](https://github.com/orijitghosh/FlyDreamR/issues).
+page](https://github.com/NHLBI/FlyDreamR/issues).
 
 ------------------------------------------------------------------------
 
 ## Contact
 
 **Author:** Arijit Ghosh. For bugs and feature requests, open an issue
-at <https://github.com/orijitghosh/FlyDreamR/issues>.
+at <https://github.com/NHLBI/FlyDreamR/issues>.
 
 ------------------------------------------------------------------------
 
 ## License
 
 Released under the [GNU General Public License v3
-(GPL-3)](https://orijitghosh.github.io/FlyDreamR/LICENSE).
+(GPL-3)](https://nhlbi.github.io/FlyDreamR/LICENSE).

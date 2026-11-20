@@ -26,7 +26,7 @@ HMMbehavr(behavtbl, it = 100, ldcyc = NULL, n_states = 4L)
   `genotype`, and `t` (time in seconds). Additional metadata columns
   (e.g., `sex`, `treatment`) will be automatically included in output
   summaries. Typically the output from
-  [`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md).
+  [`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md).
 
 - it:
 
@@ -131,7 +131,7 @@ summaries. Unexpected top-level errors stop the call.
 - Progress bar shows overall fitting progress
 
 - For large datasets, consider using
-  [`HMMbehavrFast`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md)
+  [`HMMbehavrFast`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md)
   for parallel processing
 
 - Typical runtime: ~1-2 seconds per individual-day with it=100
@@ -143,13 +143,13 @@ heterogeneity in sleep states. (Add actual reference when published)
 
 ## See also
 
-[`HMMbehavrFast`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md)
+[`HMMbehavrFast`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md)
 for parallel implementation
-[`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 for preparing input data
-[`HMMplot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMplot.md)
-for visualizing results
-[`HMMFacetedPlot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
+[`HMMplot`](https://nhlbi.github.io/FlyDreamR/reference/HMMplot.md) for
+visualizing results
+[`HMMFacetedPlot`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
 for multi-individual visualization
 
 ## Examples

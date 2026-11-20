@@ -5,7 +5,7 @@
 ### Data preparation and HMM analysis
 
 - Added optional suspected dead-fly removal in
-  [`HMMDataPrep()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md).
+  [`HMMDataPrep()`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md).
 - Added 3- and 5-state HMM fitting alongside the four-state default.
 - Added a per-fly-day `QualityReport` and clearer fit errors in console
   and Shiny workflows.
@@ -13,14 +13,14 @@
 ### New Features
 
 - Added parallelized HMM fitting with
-  [`HMMbehavrFast()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md)
+  [`HMMbehavrFast()`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md)
 - Implemented comprehensive traditional sleep analysis with
-  [`calcTradSleep()`](https://orijitghosh.github.io/FlyDreamR/reference/calcTradSleep.md)
+  [`calcTradSleep()`](https://nhlbi.github.io/FlyDreamR/reference/calcTradSleep.md)
 - Created interactive Shiny app for GUI-based analysis
 - Added multiple visualization functions:
-  [`HMMplot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMplot.md),
-  [`HMMFacetedPlot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md),
-  [`HMMSinglePlot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMSinglePlot.md)
+  [`HMMplot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMplot.md),
+  [`HMMFacetedPlot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md),
+  [`HMMSinglePlot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMSinglePlot.md)
 - The `FlyDreamR` preprint is now
   [online](https://www.biorxiv.org/content/10.64898/2026.01.14.699526v1)
 

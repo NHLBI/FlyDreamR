@@ -244,9 +244,9 @@ The 4th row would be excluded (SetupCode = 0).
 
 ## See also
 
-[`convMasterToMetaBatch`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMetaBatch.md)
+[`convMasterToMetaBatch`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMetaBatch.md)
 for processing multiple master files at once
-[`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 for using the generated metadata to load DAM data
 
 ## Examples

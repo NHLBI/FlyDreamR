@@ -17,13 +17,13 @@ review fit failures in `QualityReport`.
 ## What to read next
 
 - **Getting data into FlyDreamR**:
-  [`vignette("data-prep", package = "FlyDreamR")`](https://orijitghosh.github.io/FlyDreamR/articles/data-prep.md)
+  [`vignette("data-prep", package = "FlyDreamR")`](https://nhlbi.github.io/FlyDreamR/articles/data-prep.md)
 - **Traditional sleep analyses**:
-  [`vignette("traditional-sleep", package = "FlyDreamR")`](https://orijitghosh.github.io/FlyDreamR/articles/traditional-sleep.md)
+  [`vignette("traditional-sleep", package = "FlyDreamR")`](https://nhlbi.github.io/FlyDreamR/articles/traditional-sleep.md)
 - **HMM fitting and visualization**:
-  [`vignette("hmm-workflow", package = "FlyDreamR")`](https://orijitghosh.github.io/FlyDreamR/articles/hmm-workflow.md)
+  [`vignette("hmm-workflow", package = "FlyDreamR")`](https://nhlbi.github.io/FlyDreamR/articles/hmm-workflow.md)
 - **Running the Shiny app**:
-  [`vignette("shiny-app", package = "FlyDreamR")`](https://orijitghosh.github.io/FlyDreamR/articles/shiny-app.md)
+  [`vignette("shiny-app", package = "FlyDreamR")`](https://nhlbi.github.io/FlyDreamR/articles/shiny-app.md)
 
 ## Installation (typical options)
 
@@ -33,7 +33,7 @@ From GitHub (recommended)
 
 # Install from GitHub (devtools or remotes)
 install.packages(c('devtools','remotes'), repos='https://cloud.r-project.org')
-remotes::install_github('orijitghosh/FlyDreamR', upgrade = 'never')
+remotes::install_github('NHLBI/FlyDreamR', upgrade = 'never')
 ```
 
 Then load the package:
@@ -46,7 +46,7 @@ library(FlyDreamR)
 ## Getting help
 
 - Check documentation:
-  [`?HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+  [`?HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 - View examples: `example(HMMplot)`
 
 ## Citation

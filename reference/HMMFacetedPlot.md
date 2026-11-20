@@ -20,9 +20,9 @@ HMMFacetedPlot(HMMinferList, col_palette = "default")
 - HMMinferList:
 
   A list, typically the output from
-  [`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+  [`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
   or
-  [`HMMbehavrFast`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md).
+  [`HMMbehavrFast`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md).
   The second element (`HMMinferList[[2]]`) must be a data frame
   containing the `VITERBIDecodedProfile` with columns:
 
@@ -117,11 +117,11 @@ preparation.
 
 ## See also
 
-[`HMMplot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMplot.md)
-for tile-based visualization
-[`HMMSinglePlot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMSinglePlot.md)
+[`HMMplot`](https://nhlbi.github.io/FlyDreamR/reference/HMMplot.md) for
+tile-based visualization
+[`HMMSinglePlot`](https://nhlbi.github.io/FlyDreamR/reference/HMMSinglePlot.md)
 for individual plots saved to files
-[`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+[`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 for generating input data
 
 ## Examples

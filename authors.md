@@ -8,7 +8,7 @@
 ## Citation
 
 Source:
-[`inst/CITATION`](https://github.com/orijitghosh/FlyDreamR/blob/main/inst/CITATION)
+[`inst/CITATION`](https://github.com/NHLBI/FlyDreamR/blob/main/inst/CITATION)
 
 Ghosh A, Harbison S (2026). “Inferring the genetic basis of sleep states
 in Drosophila melanogaster using hidden Markov models.” *bioRxiv*.

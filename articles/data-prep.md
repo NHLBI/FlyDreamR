@@ -51,9 +51,9 @@ to Step 2 directly.
 ## 1) Convert a master file to FlyDreamR metadata
 
 Use
-[`convMasterToMeta()`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMeta.md)
+[`convMasterToMeta()`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMeta.md)
 for a single master file, or
-[`convMasterToMetaBatch()`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMetaBatch.md)
+[`convMasterToMetaBatch()`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMetaBatch.md)
 to combine multiple master files into one metadata table.
 
 ``` r
@@ -76,7 +76,7 @@ metafileBatch <- convMasterToMetaBatch(
 ## 2) Load/bind monitor data for analysis
 
 Use
-[`HMMDataPrep()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep()`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 to load the monitor file(s) associated with a metadata CSV and generate
 a cleaned dataset. Demo dataset has been provided.
 
@@ -121,9 +121,9 @@ dt <- HMMDataPrep(
 
 The resulting table can be passed into:
 
-- [`calcTradSleep()`](https://orijitghosh.github.io/FlyDreamR/reference/calcTradSleep.md)
+- [`calcTradSleep()`](https://nhlbi.github.io/FlyDreamR/reference/calcTradSleep.md)
   for traditional sleep metrics
-- [`HMMbehavr()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+- [`HMMbehavr()`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
   /
-  [`HMMbehavrFast()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md)
+  [`HMMbehavrFast()`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md)
   for HMM fitting

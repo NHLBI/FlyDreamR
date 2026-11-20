@@ -7,7 +7,7 @@ a `behavr` table ready for Hidden Markov Model analysis.
 
 This is typically the first step in the FlyDreamR workflow, converting
 raw DAM files into a standardized format suitable for
-[`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md).
+[`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md).
 
 ## Usage
 
@@ -58,7 +58,7 @@ HMMDataPrep(
 - ...:
 
   Additional arguments passed to
-  [`sleepDAMAnnotation`](https://orijitghosh.github.io/FlyDreamR/reference/sleepDAMAnnotation.md).
+  [`sleepDAMAnnotation`](https://nhlbi.github.io/FlyDreamR/reference/sleepDAMAnnotation.md).
   Most commonly used:
 
   `min_time_immobile`
@@ -165,11 +165,11 @@ The function will stop with an error if:
 
 ## See also
 
-[`convMasterToMeta`](https://orijitghosh.github.io/FlyDreamR/reference/convMasterToMeta.md)
+[`convMasterToMeta`](https://nhlbi.github.io/FlyDreamR/reference/convMasterToMeta.md)
 for generating metadata files
-[`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+[`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 for running HMM analysis on prepared data
-[`sleepDAMAnnotation`](https://orijitghosh.github.io/FlyDreamR/reference/sleepDAMAnnotation.md)
+[`sleepDAMAnnotation`](https://nhlbi.github.io/FlyDreamR/reference/sleepDAMAnnotation.md)
 for sleep annotation details
 [`load_dam`](https://rdrr.io/pkg/damr/man/load_dam.html) for DAM file
 loading

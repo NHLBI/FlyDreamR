@@ -2,7 +2,7 @@
 
 Internal function that annotates sleep bouts based on immobility
 duration. Used automatically by
-[`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 via [`damr::load_dam`](https://rdrr.io/pkg/damr/man/load_dam.html).
 
 This function is a modified version of
@@ -85,7 +85,7 @@ across different animals.
 This function is called internally by
 [`damr::load_dam`](https://rdrr.io/pkg/damr/man/load_dam.html) when
 invoked from
-[`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md).
+[`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md).
 Users can customize the threshold by passing `min_time_immobile` to
 `HMMDataPrep` via the `...` argument.
 
@@ -97,7 +97,7 @@ sleep-like state. Neuron, 25(1), 129-138.
 
 ## See also
 
-[`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 for using this function via the standard workflow
 [`bout_analysis`](https://rdrr.io/pkg/sleepr/man/bout_analysis.html) for
 bout detection algorithm

@@ -2,14 +2,14 @@
 
 This vignette demonstrates FlyDreamR’s “traditional” sleep workflow
 using
-[`calcTradSleep()`](https://orijitghosh.github.io/FlyDreamR/reference/calcTradSleep.md).
+[`calcTradSleep()`](https://nhlbi.github.io/FlyDreamR/reference/calcTradSleep.md).
 
 ## Prepare data with a sleep definition
 
 FlyDreamR lets you define sleep as immobility bouts of a minimum
 duration (e.g., 5 minutes, 60 minutes). Start by preparing the dataset
 with
-[`HMMDataPrep()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep()`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 and a chosen `min_time_immobile` definition.
 
 ``` r
@@ -45,7 +45,7 @@ trad_60min <- calcTradSleep(dt_60min)
 trad_60min
 ```
 
-[`calcTradSleep()`](https://orijitghosh.github.io/FlyDreamR/reference/calcTradSleep.md)
+[`calcTradSleep()`](https://nhlbi.github.io/FlyDreamR/reference/calcTradSleep.md)
 returns a list of summary tables, including day/night breakdowns and
 bout/latency statistics.
 

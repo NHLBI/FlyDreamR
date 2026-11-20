@@ -21,7 +21,7 @@ calcTradSleep(dt_test)
 
   A `data.table` containing activity and sleep state data, typically the
   output from
-  [`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md).
+  [`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md).
   Must contain the following columns:
 
   - `id`: Unique identifier for each individual
@@ -100,7 +100,7 @@ periods, which can indicate arousal threshold or sleep depth.
 
 ## See also
 
-[`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 for preparing input data
 [`bout_analysis`](https://rdrr.io/pkg/sleepr/man/bout_analysis.html) for
 bout detection algorithm

@@ -20,9 +20,9 @@ HMMplot(hmm_inference_list, color_palette = "default", user_colors = NULL)
 - hmm_inference_list:
 
   A list, typically the output from
-  [`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+  [`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
   or
-  [`HMMbehavrFast`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md).
+  [`HMMbehavrFast`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md).
   The second element must be a data frame (`VITERBIDecodedProfile`) with
   columns: `timestamp`, `ID`, `state_name`, and `day`.
 
@@ -115,16 +115,16 @@ Use `HMMplot` when you want to:
 - Create compact publication figures
 
 For detailed examination of individual state transitions, consider
-[`HMMFacetedPlot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
+[`HMMFacetedPlot`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
 instead.
 
 ## See also
 
-[`HMMFacetedPlot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
+[`HMMFacetedPlot`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
 for detailed multi-panel visualization
-[`HMMSinglePlot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMSinglePlot.md)
+[`HMMSinglePlot`](https://nhlbi.github.io/FlyDreamR/reference/HMMSinglePlot.md)
 for saving individual plots
-[`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+[`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 for generating input data
 
 ## Examples

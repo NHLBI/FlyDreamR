@@ -8,9 +8,8 @@ assignments with a light/dark phase annotation.
 **Note:** This function is designed for batch processing and
 automatically saves plots to disk. It does not return plots for
 interactive viewing. For interactive plotting, use
-[`HMMplot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMplot.md)
-or
-[`HMMFacetedPlot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md).
+[`HMMplot`](https://nhlbi.github.io/FlyDreamR/reference/HMMplot.md) or
+[`HMMFacetedPlot`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md).
 
 ## Usage
 
@@ -23,7 +22,7 @@ HMMSinglePlot(HMMinferList, col_palette = "default")
 - HMMinferList:
 
   A list, typically the output from
-  [`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md).
+  [`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md).
   The second element (`HMMinferList[[2]]`) must be a data frame with the
   `VITERBIDecodedProfile` containing: `ID`, `day`, `timestamp`,
   `state_name`, and `genotype`.
@@ -113,19 +112,18 @@ This function is most useful for:
 - Supplementary materials for publications
 
 For interactive analysis or presentation figures, consider using
-[`HMMplot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMplot.md)
-or
-[`HMMFacetedPlot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
+[`HMMplot`](https://nhlbi.github.io/FlyDreamR/reference/HMMplot.md) or
+[`HMMFacetedPlot`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
 instead, which return ggplot objects that can be customized and viewed
 interactively.
 
 ## See also
 
-[`HMMplot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMplot.md)
-for interactive tile plot
-[`HMMFacetedPlot`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
+[`HMMplot`](https://nhlbi.github.io/FlyDreamR/reference/HMMplot.md) for
+interactive tile plot
+[`HMMFacetedPlot`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
 for interactive faceted plot
-[`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+[`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 for generating input data
 
 ## Examples

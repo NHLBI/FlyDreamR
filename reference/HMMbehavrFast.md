@@ -1,7 +1,7 @@
 # Parallel Hidden Markov Model for Sleep State Inference
 
 Parallelized wrapper for
-[`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+[`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 that processes multiple individuals simultaneously using multiple CPU
 cores. This function provides significant speed improvements for large
 datasets while maintaining identical output to the serial version.
@@ -22,14 +22,14 @@ HMMbehavrFast(behavtbl, it = 100, n_cores = 4, ldcyc = NULL, n_states = 4L)
 
   A `behavr` table containing behavioral data for multiple individuals.
   See
-  [`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+  [`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
   for required columns.
 
 - it:
 
   Integer (\>= 100) specifying the number of HMM fitting iterations per
   individual per day. Default: 100. See
-  [`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+  [`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
   for details.
 
 - n_cores:
@@ -52,7 +52,7 @@ HMMbehavrFast(behavtbl, it = 100, n_cores = 4, ldcyc = NULL, n_states = 4L)
 
   Numeric specifying light phase duration in hours. If `NULL` (default),
   assumes 12-hour light phase. See
-  [`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+  [`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
   for details.
 
 - n_states:
@@ -77,7 +77,7 @@ individuals:
   Fit status and reason for each individual and day
 
 See
-[`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+[`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 for detailed description of output structure.
 
 ## Details
@@ -93,7 +93,7 @@ The function:
 3.  Distributes individuals across workers
 
 4.  Each worker runs
-    [`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+    [`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
     independently
 
 5.  Combines results after all workers complete
@@ -129,9 +129,9 @@ worker errors stop the call.
 
 ## See also
 
-[`HMMbehavr`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+[`HMMbehavr`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
 for serial implementation and detailed HMM description
-[`HMMDataPrep`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md)
+[`HMMDataPrep`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md)
 for preparing input data
 [`makeCluster`](https://rdrr.io/r/parallel/makeCluster.html) for details
 on parallel backends

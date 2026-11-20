@@ -6,12 +6,12 @@ FlyDreamR, including fitting and plotting.
 ## Fit an HMM
 
 After preparing your dataset with
-[`HMMDataPrep()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMDataPrep.md),
+[`HMMDataPrep()`](https://nhlbi.github.io/FlyDreamR/reference/HMMDataPrep.md),
 you can fit an HMM using:
 
-- [`HMMbehavr()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavr.md)
+- [`HMMbehavr()`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavr.md)
   (single-threaded)
-- [`HMMbehavrFast()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMbehavrFast.md)
+- [`HMMbehavrFast()`](https://nhlbi.github.io/FlyDreamR/reference/HMMbehavrFast.md)
   (parallel; faster on multi-core machines)
 
 ``` r
@@ -47,11 +47,11 @@ four-state model should not be assumed for three- or five-state fits.
 
 FlyDreamR provides convenient plotting helpers:
 
-- [`HMMplot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMplot.md)
+- [`HMMplot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMplot.md)
   for heatmap hypnograms
-- [`HMMFacetedPlot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
+- [`HMMFacetedPlot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMFacetedPlot.md)
   to facet individual hypnograms
-- [`HMMSinglePlot()`](https://orijitghosh.github.io/FlyDreamR/reference/HMMSinglePlot.md)
+- [`HMMSinglePlot()`](https://nhlbi.github.io/FlyDreamR/reference/HMMSinglePlot.md)
   to save individual hypnograms to disk
 
 ``` r
